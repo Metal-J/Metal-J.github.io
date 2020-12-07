@@ -5,6 +5,8 @@
 
 // Base
 
+@import url("/assets/css/font.css");
+
 @font-face { font-family: 'Roboto'; src: url('fonts/Roboto-Light.ttf'); font-display: swap; }
 @font-face { font-family: 'Raleway'; src: url('fonts/Raleway-Regular.ttf'); font-display: swap; }
 @font-face { font-family: 'NotoSerifSC'; src: url('fonts/NotoSerifSC-Regular.otf'); font-display: swap; }
@@ -21,7 +23,7 @@ a { text-decoration:none; width: fit-content; }
 a:link,a:visited { color: #1756a9; }
 a:hover { color: #828282; }
 
-h1,h2,h3,h4,h5,h6 { font-family: 'Roboto','NotoSerifSC'; }
+h1,h2,h3,h4,h5,h6 { font-family: 'Roboto','NotoSerifSC-Regular'; }
 h1 { 
   margin: 100px 9px 5px;
 }
