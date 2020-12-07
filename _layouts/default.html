@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {%- include head.html -%}
+  <script src="/assets/js/toc-script.js" type="text/javascript"></script>
+  
+  <body>
+    {%- include header.html -%}
+    <main class="main-content" aria-label="Content">
+      
+      <div class="toc-bar">
+        <div id="toc"></div>
+        <div class="wow fadeIn toc-footer">
+          <div class="toc-footer-tile">
+            <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+          </div>
+          <p class="rights" >Copyright &copy; 2020-2019 {{ site.title | escape }} All Rights Reserved</p>
+        </div>
+      </div>
+
+      <div class="wrapper">
+        {{ content }}
+        {%- include footer.html -%}
+      </div>
+
+    </main>
+    <script type="text/javascript"> $(document).ready(function() {$('#toc').toc(); }); </script>
+  </body>
+
+</html>

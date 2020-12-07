@@ -1,0 +1,17 @@
+<footer class="site-footer">
+  <p class="wow fadeIn footer-heading">{{ site.title | escape }}</p>
+
+  <div class="footer-col">
+    {%- if site.email -%}
+      <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+    {%- endif -%}
+  </div>
+
+  <div class="social-media-list">
+    {%- if site.github_username -%}
+      <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/img/minima-social-icons.svg#github' | relative_url }}"></use></svg> <span class="username">{{ site.github_username| escape }}</span></a>
+    {%- endif -%}
+  </div>
+
+  <p class="rights" >Copyright &copy; 2020-2019 {{ site.title | escape }} All Rights Reserved</p>
+</footer>
