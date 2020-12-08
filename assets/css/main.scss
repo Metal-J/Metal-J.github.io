@@ -173,7 +173,10 @@ h5 {
 // post
 
 .post-content ul, .post-content ol, .post-content li {
-  list-style: disc!important;
+  list-style: none!important;
+  font-size: small;
+  padding: 0 10.5px;
+  color: grey;
 }
 
 .post-content p {
