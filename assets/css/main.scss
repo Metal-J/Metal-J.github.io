@@ -182,7 +182,7 @@ h5 {
 .post-content ul, .post-content ol, .post-content li {
   list-style: none!important;
   font-size: small;
-  padding: 0 10.5px;
+  padding: 0 10px;
   color: grey;
 }
 
@@ -224,9 +224,8 @@ blockquote p {
   color: grey;
 }
 em {
-  color: darkgray;
-  font-size: small;
-  font-style: inherit;
+  font-style: unset;
+  text-decoration: underline;
 }
 
 // Footer
