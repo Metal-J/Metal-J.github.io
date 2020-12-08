@@ -224,9 +224,10 @@ blockquote p {
   color: grey;
 }
 em {
-  color: lightcoral;
+  color: slategrey;
   font-style: unset;
-  padding: 0 3px;
+  padding: 0 2px;
+  text-decoration: underline;
 }
 
 // Footer
