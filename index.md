@@ -10,7 +10,7 @@ layout: default
 #### 逻辑哲学论 [英] 路德维希·维特根斯坦
 
 <ul class = "main-list">
-    {% for post in site.categories.Wittgenstein %}
+    {% for post in site.categories.Wittgenstein reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
@@ -23,7 +23,7 @@ layout: default
 #### 惰者集 [日] 小平邦彦（Kunihiko Kodaira）
 
 <ul class = "main-list">
-    {% for post in site.categories.Kunihiko-Kodaira %}
+    {% for post in site.categories.Kunihiko-Kodaira reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
@@ -31,7 +31,7 @@ layout: default
 #### 春宵十話 随筆集 [日] 岡潔（Kiyoshi Oka）
 
 <ul class = "main-list">
-    {% for post in site.categories.Kiyoshi-Oka %}
+    {% for post in site.categories.Kiyoshi-Oka reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
@@ -39,7 +39,7 @@ layout: default
 #### 数学 通识读本 [英] 蒂莫西·高尔斯（Timothy Gowers）
 
 <ul class = "main-list">
-    {% for post in site.categories.Timothy-Gowers %}
+    {% for post in site.categories.Timothy-Gowers reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
@@ -54,7 +54,7 @@ layout: default
 #### 微积分学教程 [苏] Г.М.菲赫金哥尔茨
 
 <ul class = "main-list">
-    {% for post in site.categories.FM %}
+    {% for post in site.categories.FM reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
