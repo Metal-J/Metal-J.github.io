@@ -22,7 +22,7 @@ layout: default
 
 ### 文集
 
-#### 惰者集 [日] 小平邦彦（Kunihiko Kodaira）
+#### 惰者集 [日] 小平邦彦
 
 <ul class = "main-list">
     {% for post in site.categories.Kunihiko-Kodaira reversed %}
@@ -30,7 +30,7 @@ layout: default
     {% endfor %}
 </ul>
 
-#### 春宵十話 随筆集 [日] 岡潔（Kiyoshi Oka）
+#### 春宵十話 随筆集 [日] 岡潔
 
 <ul class = "main-list">
     {% for post in site.categories.Kiyoshi-Oka reversed %}
@@ -38,7 +38,7 @@ layout: default
     {% endfor %}
 </ul>
 
-#### 数学 通识读本 [英] 蒂莫西·高尔斯（Timothy Gowers）
+#### 数学 通识读本 [英] 蒂莫西·高尔斯
 
 <ul class = "main-list">
     {% for post in site.categories.Timothy-Gowers reversed %}
@@ -54,8 +54,9 @@ layout: default
 
 ### 微积分
 
-#### 微积分入门 [日] 小平邦彦（Kunihiko Kodaira）
+#### 解析概论 [日] 高木贞治
 
+#### 微积分入门 [日] 小平邦彦
 <ul class = "main-list">
     {% for post in site.categories.AITC reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
