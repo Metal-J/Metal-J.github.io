@@ -11,7 +11,7 @@ layout: default
 #### 逻辑哲学论 [英] 路德维希·维特根斯坦
 
 <ul class = "main-list">
-    {% for post in site.categories.Wittgenstein reversed %}
+    {% for post in site.categories.LJZXL reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
@@ -25,7 +25,7 @@ layout: default
 #### 惰者集 [日] 小平邦彦
 
 <ul class = "main-list">
-    {% for post in site.categories.Kunihiko-Kodaira reversed %}
+    {% for post in site.categories.DZJ reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
@@ -33,7 +33,7 @@ layout: default
 #### 春宵十話 随筆集 [日] 岡潔
 
 <ul class = "main-list">
-    {% for post in site.categories.Kiyoshi-Oka reversed %}
+    {% for post in site.categories.CYSH reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
@@ -41,7 +41,7 @@ layout: default
 #### 数学 通识读本 [英] 蒂莫西·高尔斯
 
 <ul class = "main-list">
-    {% for post in site.categories.Timothy-Gowers reversed %}
+    {% for post in site.categories.SXTSDB reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
@@ -56,9 +56,16 @@ layout: default
 
 #### 解析概论 [日] 高木贞治
 
-#### 微积分入门 [日] 小平邦彦
 <ul class = "main-list">
-    {% for post in site.categories.AITC reversed %}
+    {% for post in site.categories.JXGL reversed %}
+        <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+
+#### 微积分入门 [日] 小平邦彦
+
+<ul class = "main-list">
+    {% for post in site.categories.WJFRM reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
@@ -66,7 +73,7 @@ layout: default
 #### 微积分学教程 [苏] Г.М.菲赫金哥尔茨
 
 <ul class = "main-list">
-    {% for post in site.categories.FM reversed %}
+    {% for post in site.categories.WJFXJC reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
