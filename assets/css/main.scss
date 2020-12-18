@@ -47,6 +47,12 @@ h5 {
   margin: 14px 3px;
   color: #103b74;
 }
+h6 {
+  text-align: center;
+  padding-left: 11px;
+  margin: 14px 3px;
+  color: #103b74;
+}
 
 // Header
 
@@ -180,9 +186,8 @@ h5 {
 // post
 
 .post-content ul, .post-content ol, .post-content li {
-  list-style: none!important;
+  list-style: disc;
   font-size: small;
-  padding: 0 10px;
   color: grey;
 }
 
@@ -227,6 +232,7 @@ em {
   color:lightslategray;
   font-style: unset;
   padding: 0 2px;
+  text-decoration: underline;
 }
 
 // Footer
