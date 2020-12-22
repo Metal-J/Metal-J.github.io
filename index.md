@@ -54,6 +54,14 @@ layout: default
 
 ### 微积分
 
+#### 微积分学教程 [苏] Г.М.菲赫金哥尔茨
+
+<ul class = "main-list">
+    {% for post in site.categories.WJFXJC reversed %}
+        <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+
 #### 解析概论 [日] 高木贞治
 
 <ul class = "main-list">
@@ -66,14 +74,6 @@ layout: default
 
 <ul class = "main-list">
     {% for post in site.categories.WJFRM reversed %}
-        <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-</ul>
-
-#### 微积分学教程 [苏] Г.М.菲赫金哥尔茨
-
-<ul class = "main-list">
-    {% for post in site.categories.WJFXJC reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
