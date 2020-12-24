@@ -5,12 +5,13 @@ layout: default
 (This sentence is hidden.)
 
 {:.ruby}
-    UPDATING 2020-12 [Metal-J] 🌌
+    UPDATING 2020-12 [Metal-J]
 
 >This site is used to organize and record notes  
 >For **learning purposes** and **personal use only**
 
 <div class="intro-img"><p>NEO JAPAN 2202 © Johnson Ting</p></div>
+<div class="intro"><p>ABOUT:<br>Principle beyond the principles</p></div>
 
 <ul class = "main-list">
     {% for post in site.categories.X reversed %}
