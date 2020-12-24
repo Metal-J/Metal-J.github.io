@@ -9,7 +9,7 @@ layout: default
 >For **learning purposes** and **personal use only**
 
 <div class="intro-img"><p>NEO JAPAN 2202 © Johnson Ting</p></div>
-<div class="intro"><p>ABOUT:<br>Principle beyond the principles</p></div>
+<div class="intro"><p><strong>ABOUT</strong><br>The Principle beyond principles</p></div>
 
 <ul class = "main-list">
     {% for post in site.categories.X reversed %}

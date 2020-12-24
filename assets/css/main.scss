@@ -17,36 +17,39 @@ html,body {
 }
 
 li,ol,ul { list-style: none; }
+
 a { text-decoration: none; width: fit-content; }
 a:link,a:visited { color: #1756a9; }
 a:hover { color: #828282; }
 
 h1,h2,h3,h4,h5,h6 { font-family: 'Roboto','NotoSerifSC'; }
-h1 { 
-  margin: 100px 9px 5px;
-}
+
 h2 {
   padding: 0 0 0 7px;
   font-size: 20px;
   margin: 80px 0 0;
 }
+
 h3 {
   border-left: 1px solid#e8e8e8;
   padding: 5px 10px;
   margin: 20px 3px;
   font-size: 17px;
 }
+
 h4 {
   padding-left: 11.5px;
   margin: 14px 3px;
   font-size: 15px;
   word-break: break-word;
 }
+
 h5 {
   padding-left: 11px;
   margin: 14px 3px;
   color: #103b74;
 }
+
 h6 {
   margin: 5px 15px;
   color: rgb(168, 167, 167);
@@ -74,7 +77,6 @@ h6 {
 .site-title {
   color: #1b2229!important;
   font-family: 'Raleway';
-  font-weight: bold;
 }
 
 // Home
@@ -97,24 +99,26 @@ h6 {
   }
 }
 
-.main-list { padding: 0 14px; }
+.main-list {
+  padding: 0 14px;
+}
+
 .main-list li { 
   display: flex; 
   align-items: center;
-  font-family: 'Roboto','NotoSerifSC'; }
-.main-list a { padding-left: 6px; font-size: 14px; }
+  font-family: 'Roboto','NotoSerifSC'; 
+}
+
+.main-list a { 
+  padding-left: 6px; 
+  font-size: 14px;
+}
+
 .post-date {
   font-family: $base-font-family;
   font-size: 14px;
   color: #828282;
-  margin: 0;}
-
-.intro {
-  font-size: large;
-  color: #cdcdcd;
-  font-family: 'Roboto';
-  word-break: keep-all;
-  padding: 0 14px;
+  margin: 0;
 }
 
 .intro-img {
@@ -125,7 +129,6 @@ h6 {
   margin: 25px auto 0;
   width: 250px;
   height: 250px;
-  z-index: -1;
   filter: invert(1);
 }
 
@@ -134,21 +137,26 @@ h6 {
   background-color: #005dcc;
 }
 
+.intro {
+  font-size: large;
+  color: #cdcdcd;
+  font-family: 'Roboto';
+  word-break: keep-all;
+  padding: 0 14px;
+}
+
 // toc
 
 .toc-title {
-  margin: 15px 0 35px;
   font-size: 15px;
-  font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Raleway"; 
 }
 
 .toc-bar { 
   width: 320px;
-  border-right: 1px solid #e8e8e8;
   background-color: white;
-  word-break: break-all;
   height: calc(100vh);
-  overflow-y: auto;
+  overflow-y: scroll;
   position: fixed;
   z-index: 2;
   top: 0;
@@ -156,26 +164,28 @@ h6 {
   padding-right: 15px;
 }
 
-#toc ul { padding: 2px 0 13px 0; }
-#toc ul li li { list-style: none!important; }
+#toc ul { padding: 5px 0 15px 0; }
+
+#toc ul li li { list-style: none !important; }
+
 .toc-list .toc-item .toc-link { 
   font-size: 15px !important;
-  display: block;
   color: black;
   font-family: 'Roboto','NotoSerifSC';
   font-weight: bold; }
+
 #toc ul li ul li a { 
   font-size: small !important;
-  display: block;
   font-weight: bold;
   border-left: 1px solid #e8e8e8;
   padding: 0px 5px;
-  margin: 5px 0px; }
+  margin: 5px 0px;
+}
+
 #toc ul li ul li ul li a {
   font-size: small !important;
-  display: block;
-  font-weight: 400 !important;
-  color: #103b74;
+  font-weight: normal !important;
+  color:#103b74;
   border-left: none;
   padding: 0px 5px;
   margin: 0 0px;
@@ -184,11 +194,18 @@ h6 {
 .toc-bar::-webkit-scrollbar {
   width: 3px;    
 }
+
 .toc-bar::-webkit-scrollbar-thumb {
-  background: rgba(0,0,0,0.2);
+  background:#9d9d9d70;
 }
+
 .toc-bar::-webkit-scrollbar-track {
-  background: rgba(0,0,0,0.1);
+  background:#cdcdcd70;
+}
+
+.flip {
+  margin: 0 10px;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 800px) {
@@ -200,28 +217,32 @@ h6 {
   }
 }
 
-.flip {
-  margin: 0 15px;
-  cursor: pointer;
-}
-
 // post
 
+h1 { 
+  font-size: 19px;
+  margin: 0; 
+}
+
+.post-header {
+  text-align: center;
+  margin: 40px 0 0 0;
+}
+
 .post-content ul, .post-content ol, .post-content li {
-  list-style: disc;
   font-size: small;
   color: grey;
+  padding: 0 7.5px;
 }
 
 .post-content p {
-  font-size: 15px;
-  font-weight: 400;
-  padding: 0 13.5px;
-  font-family: 'Roboto',-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  padding: 0 14px;
+  font-family: 'Roboto',$base-font-family; 
 }
 
 .post-meta {
-  margin: 0 0 50px 10px;
+  margin: 10px 0 40px;
   color: #828282;
   font-size: 14px;
 } 
@@ -234,7 +255,7 @@ code {
 }
 
 strong {
-  font-family: 'Roboto','NotoSerifSC',$base-font-family;
+  font-family: 'Roboto','NotoSerifSC';
   padding: 0 2px;
   line-height: 1em;
 }
@@ -243,14 +264,11 @@ strong {
   font-size: small;
 }
 
-blockquote{
-  margin: 0;
-}
 blockquote p {
   font-size: small!important;
-  margin: 10px 6px;
   color: grey;
 }
+
 em {
   color:lightslategray;
   font-style: unset;
