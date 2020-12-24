@@ -22,7 +22,7 @@ a { text-decoration: none; width: fit-content; }
 a:link,a:visited { color: #1756a9; }
 a:hover { color: #828282; }
 
-h1,h2,h3,h4,h5,h6 { font-family: 'Roboto','NotoSerifSC'; }
+h1,h2,h3,h4,h5 { font-family: 'Roboto','NotoSerifSC'; }
 
 h2 {
   padding: 0 0 0 7px;
@@ -223,17 +223,17 @@ h1 {
 }
 
 .post-content li {
-  font-size: small;
+  font-size: 13px;
   font-weight: bold;
   font-family: 'Roboto','NotoSerifSC';
   text-align: left;
+  padding: 2px 0;
 }
 
 .post-content ul, .post-content ol {
   margin: auto;
-  padding: 0;
+  padding: 25px;
   width: fit-content;
-  max-width: 420px;
 }
 
 .post-content p {
@@ -263,11 +263,6 @@ strong {
 
 .katex-display {
   font-size: small;
-}
-
-h6 {
-  margin: auto;
-  width: 50%;
 }
 
 blockquote {
