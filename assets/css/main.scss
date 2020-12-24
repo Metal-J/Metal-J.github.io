@@ -134,6 +134,12 @@ h6 {
   background-color: #005dcc;
 }
 
+@media only screen and (max-width: 800px) {
+  .intro {
+    font-size: 27px;
+  }
+}
+
 // toc
 
 .toc-title {
