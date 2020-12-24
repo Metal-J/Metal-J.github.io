@@ -5,16 +5,12 @@ layout: default
 This sentence is hidden.
 
 {:.ruby}
-    UPDATING 2020-12-24 [Metal] 🌌
+    UPDATING 2020 [Metal] 🌌
 
 >This site is used to organize and record notes  
 >For **learning purposes** and **personal use only**
 
-<div class="intro" >
-    <p>我以前和你一样也是个冒险家，直到我的膝盖中了一箭。<br>
-    I used to be an adventurer like you, until I got an arrow in the knee.</p>
-    <p>— The Elder Scrolls V: Skyrim</p>
-</div>
+<div class="intro-img"><p>NEO JAPAN 2202 © Johnson Ting</p></div>
 
 <ul class = "main-list">
     {% for post in site.categories.X reversed %}
