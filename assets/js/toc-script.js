@@ -75,7 +75,7 @@ $(document).ready(function () {
 
     if( y > 800 && x.left == 0 ) { 
     $(".toc-bar").animate({left:'-390px'});
-    $(".wrapper").animate({left:'45px'});
+    $(".wrapper").animate({left:'13px'});
     $(".flip").css({"color":" #424242"});
     };
 

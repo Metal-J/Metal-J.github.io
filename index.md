@@ -2,10 +2,10 @@
 layout: default
 ---
 
-This sentence is hidden.
+(This sentence is hidden.)
 
 {:.ruby}
-    UPDATING 2020 [Metal] 🌌
+    UPDATING 2020-12 [Metal-J] 🌌
 
 >This site is used to organize and record notes  
 >For **learning purposes** and **personal use only**

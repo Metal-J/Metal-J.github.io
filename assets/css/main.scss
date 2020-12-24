@@ -82,7 +82,7 @@ h6 {
   z-index: -1;
   word-break: break-all;
   top: 0px;
-  right: 45px;
+  right: 13px;
   left: 365px;
   position: absolute;
 }
@@ -109,6 +109,14 @@ h6 {
   font-size: 14px;
   color: #828282;
   margin: 0;}
+
+.intro {
+  font-size: small !important;
+  color: #cdcdcd;
+  font-family: 'Roboto';
+  width: 50%;
+  word-break: keep-all;
+}
 
 .intro-img {
   background: url(/assets/img/end.jpg);
