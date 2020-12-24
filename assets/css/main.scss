@@ -50,11 +50,6 @@ h5 {
   color: #103b74;
 }
 
-h6 {
-  margin: 5px 15px;
-  color: rgb(168, 167, 167);
-}
-
 // Header
 
 .site-header {
@@ -84,7 +79,7 @@ h6 {
 
 .wrapper {
   z-index: -1;
-  top: 50px;
+  top: 45px;
   right: 13px;
   left: 365px;
   position: absolute;
@@ -227,10 +222,18 @@ h1 {
   margin: 40px 0 0 0;
 }
 
-.post-content ul, .post-content ol, .post-content li {
+.post-content li {
   font-size: small;
-  color: grey;
-  padding: 0 7.5px;
+  font-weight: bold;
+  font-family: 'Roboto','NotoSerifSC';
+  text-align: left;
+}
+
+.post-content ul, .post-content ol {
+  margin: auto;
+  padding: 0;
+  width: fit-content;
+  max-width: 420px;
 }
 
 .post-content p {
@@ -260,6 +263,11 @@ strong {
 
 .katex-display {
   font-size: small;
+}
+
+h6 {
+  margin: auto;
+  width: 50%;
 }
 
 blockquote {
