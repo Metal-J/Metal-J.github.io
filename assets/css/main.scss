@@ -110,6 +110,19 @@ h6 {
   color: #828282;
   margin: 0;}
 
+.intro {
+  display: none;
+  background: url(/assets/img/end.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+  color: whitesmoke;
+  font-family: 'Roboto','NotoSerifSC';
+  text-shadow: 2px 2px 3px black;
+  font-size: small;
+}
+
 // toc
 
 .toc-title {
