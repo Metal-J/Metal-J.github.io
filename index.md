@@ -2,8 +2,6 @@
 layout: default
 ---
 
-(This sentence is hidden.)
-
 {:.ruby}
     UPDATING 2021-1 [Metal-J] 🌌
 

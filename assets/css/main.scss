@@ -17,7 +17,7 @@ html,body {
 }
 
 li,ol,ul { list-style: none; }
-a { text-decoration:none; width: fit-content; }
+a { text-decoration: none; width: fit-content; }
 a:link,a:visited { color: #1756a9; }
 a:hover { color: #828282; }
 
@@ -26,7 +26,7 @@ h1 {
   margin: 100px 9px 5px;
 }
 h2 {
-  padding: 0 0 0 6px;
+  padding: 0 0 0 7px;
   font-size: 20px;
   margin: 80px 0 0;
 }
@@ -73,15 +73,15 @@ h6 {
 
 .site-title {
   color: #1b2229!important;
-  font-family: 'Raleway',$base-font-family;
+  font-family: 'Raleway';
+  font-weight: bold;
 }
 
 // Home
 
 .wrapper {
   z-index: -1;
-  word-break: break-all;
-  top: 0px;
+  top: 30px;
   right: 13px;
   left: 365px;
   position: absolute;
@@ -89,7 +89,6 @@ h6 {
 
 @media only screen and (max-width: 800px) {
   .wrapper {
-    z-index: -1;
     left: 10px;
     right: 10px;
   }
@@ -129,15 +128,10 @@ h6 {
   z-index: -1;
   filter: invert(1);
 }
+
 .intro-img p {
   color: white;
   background-color: #005dcc;
-}
-
-@media only screen and (max-width: 800px) {
-  .intro {
-    font-size: 27px;
-  }
 }
 
 // toc
