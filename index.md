@@ -2,13 +2,13 @@
 layout: default
 ---
 
-This sentence is hidden.
+## EF 哲学观点
 
-{:.ruby}
-    Mentioned first
+>5.61 我们不能思考我们所不能思考的东西；因此我们也不能说我们所不能思考的东西。5.62 世界就是我的世界：这表现在语言（我所唯一理解的语言）的界限就意味我的世界的界限。——《逻辑哲学论》维特根斯坦
 
->This site is used to organize and record notes  
->For **learning purposes only** and **For personal use only**
+### 
+
+#### 逻辑哲学论 [英] 路德维希·维特根斯坦
 
 <ul class = "main-list">
     {% for post in site.categories.X reversed %}
