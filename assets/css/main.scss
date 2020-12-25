@@ -230,7 +230,7 @@ h1 {
   margin: 40px 0 0 0;
 }
 
-.post-content li {
+.post-content ul li {
   font-size: 13px;
   font-weight: bold;
   font-family: 'Roboto','NotoSerifSC';
@@ -238,7 +238,7 @@ h1 {
   padding: 3px 0;
 }
 
-.post-content ul, .post-content ol {
+.post-content ul {
   margin: auto;
   padding: 25px;
   width: fit-content;
