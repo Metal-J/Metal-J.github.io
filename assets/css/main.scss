@@ -140,6 +140,12 @@ h5 {
   padding: 0 14px;
 }
 
+@media only screen and (max-width: 800px) {
+  .intro {
+    font-size: 25px;
+  }
+}
+
 // toc
 
 .toc-title {

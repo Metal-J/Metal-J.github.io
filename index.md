@@ -9,7 +9,7 @@ layout: default
 >For **learning purposes** and **personal use only**
 
 <div class="intro-img"><p>NEO JAPAN 2202 © Johnson Ting</p></div>
-<div class="intro"><p><strong>ABOUT</strong><br>© SILENSEA All Rights Reserved</p></div>
+<div class="intro"><p><strong>ABOUT</strong><br>For the starting point</p></div>
 
 <ul class = "main-list">
     {% for post in site.categories.X reversed %}
