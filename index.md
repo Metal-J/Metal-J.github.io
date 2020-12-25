@@ -2,9 +2,6 @@
 layout: default
 ---
 
-{:.ruby}
-    UPDATING 2021-1 [Metal-J] 🌌
-
 >This site is used to organize and record notes  
 >For **learning purposes** and **personal use only**
 
