@@ -9,7 +9,7 @@ layout: default
 >For **learning purposes** and **personal use only**
 
 <div class="intro-img"><p>NEO JAPAN 2202 © Johnson Ting</p></div>
-<div class="intro"><p><strong>ABOUT</strong><br>The Principle beyond principles</p></div>
+<div class="intro"><p><strong>ABOUT</strong><br>© SILENSEA All Rights Reserved</p></div>
 
 <ul class = "main-list">
     {% for post in site.categories.X reversed %}
@@ -63,6 +63,12 @@ layout: default
 
 ## E3 编程观点
 
+<ul class = "main-list">
+    {% for post in site.categories.BCGD reversed %}
+        <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+
 ## M1 基础数学
 
 >读者对于有理数及其性质，从中学的教材内便很熟悉了。在那时，初等数学的要求，已趋向于必须扩大数的领域。的确，在有理数中即使是正整数（自然数）的根，例如$$ \sqrt2 $$，也常常并不存在。就是说，并没有这样的有理数$$ \frac pq $$ (式中$$ p $$及$$ q $$——自然数)，其平方能等于2。为了证明，试假定其反面：设有分数$$ \frac pq $$，其平方为$$ {(\frac pq)}^2\;=\; $$2。我们可以假设$$ \frac pq $$是既约分数，即$$ p $$和$$ q $$是没有公约数的。因$$ p^2=2q^2 $$，故$$ p $$为偶数：$$ p^2=2r $$($$ r $$——整数)，于是$$ q $$为奇数。用$$ p $$的式子代入，得：$$ q^2=2r^2 $$，由此推得$$ q $$为偶数。所得的矛盾便证明了我们的命题。—《微积分学教程》菲赫金哥尔茨
@@ -94,14 +100,5 @@ layout: default
 </ul>
 
 ## M2 编程语言
-
->概念是道 编程语言是虚
-
-环境：框架/接口（一般基于编程语言）中的编程是实
-而接口本身往往就是该语言的封装函数 是一种理念方法
-杂乱背后或许是统一的 是相同概念工具的不同映射
-
-在环境中 抽象工具协调 抽象方法易于理解
-用少的操作 实现更多的功能 还是与之相反
 
 ## M3 计算机系统
