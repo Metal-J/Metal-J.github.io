@@ -74,7 +74,7 @@ layout: default
     {% endfor %}
 </ul>
 
-## M1 基础数学
+## M1 入门数学
 
 <div class="cate-img" style="background-image: url(/assets/img/end4.jpg);"></div>
 
