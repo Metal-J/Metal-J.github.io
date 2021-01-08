@@ -25,9 +25,10 @@ a:hover { color: #828282; }
 h1,h2,h3,h4,h5 { font-family: 'Roboto','NotoSerifSC'; }
 
 h2 {
-  padding: 0 0 5px 13.5px;
-  font-size: 19px;
-  margin: 80px 0 0;
+  padding: 0 0 5px 8px;
+    font-size: 20px;
+    margin: 80px 0 0;
+    border-left: 5px solid #e8e8e8;
 }
 
 h3 {
@@ -133,16 +134,10 @@ h5 {
 }
 
 .intro {
-  font-size: 18px;
+  font-size: 25px;
   font-family: 'Roboto';
   word-break: keep-all;
   padding: 0 14px;
-}
-
-@media only screen and (max-width: 800px) {
-  .intro {
-    font-size: 25px;
-  }
 }
 
 .cate-img {

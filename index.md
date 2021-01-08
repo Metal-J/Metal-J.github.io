@@ -14,26 +14,9 @@ layout: default
     {% endfor %}
 </ul>
 
-## E1 哲学观点
+## E1 数学观点
 
-<div class="cate-img" style="background-image: url(/assets/img/end.jpg); filter: invert(1);"></div>
-
->这表现在语言（我所唯一理解的语言）的界限就意味我的世界的界限。  
->—《逻辑哲学论》维特根斯坦
-
-### 语言哲学
-
-#### 逻辑哲学论 [英] 路德维希·维特根斯坦
-
-<ul class = "main-list">
-    {% for post in site.categories.LJZXL reversed %}
-        <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-</ul>
-
-## E2 数学观点
-
-<div class="cate-img" style="background-image: url(/assets/img/end2.png);"></div>
+<div class="cate-img" style="background-image: url(/assets/img/end7.jpg); filter: invert(1);"></div>
 
 >数学的证明不是单纯的论证，还具有思考实验的意味。所谓理解证明，也不是确认论证中是否有错误，而是自己尝试重现思考实验的过程。  
 >—《堕者集》小平邦彦
@@ -64,7 +47,7 @@ layout: default
     {% endfor %}
 </ul>
 
-## E3 编程观点
+## E2 工程观点
 
 <div class="cate-img" style="background-image: url(/assets/img/end3.png); filter: invert(1); background-position: bottom;" ></div>
 
@@ -74,9 +57,9 @@ layout: default
     {% endfor %}
 </ul>
 
-## M1 入门数学
+## M1 基础数学
 
-<div class="cate-img" style="background-image: url(/assets/img/end4.jpg);"></div>
+<div class="cate-img" style="background-image: url(/assets/img/end4.jpg); filter: invert(1);"></div>
 
 ### 微积分
 
@@ -104,7 +87,7 @@ layout: default
     {% endfor %}
 </ul>
 
-## M2 编程语言
+## M2 编程接口
 
 <div class="cate-img" style="background-image: url(/assets/img/end5.jpg); filter: invert(1);"></div>
 
