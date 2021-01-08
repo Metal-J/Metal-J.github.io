@@ -52,7 +52,7 @@ layout: default
 <div class="cate-img" style="background-image: url(/assets/img/end3.png); filter: invert(1); background-position: bottom;" ></div>
 
 <ul class = "main-list">
-    {% for post in site.categories.BCGD reversed %}
+    {% for post in site.categories.GCGD reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
@@ -67,14 +67,6 @@ layout: default
 
 <ul class = "main-list">
     {% for post in site.categories.WJFXJC reversed %}
-        <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-</ul>
-
-#### 解析概论 [日] 高木贞治
-
-<ul class = "main-list">
-    {% for post in site.categories.JXGL reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
