@@ -76,6 +76,14 @@ layout: default
     {% endfor %}
 </ul>
 
+#### 简明微积分 [中科大] 龚昇
+
+<ul class = "main-list">
+    {% for post in site.categories.JMWJF reversed %}
+        <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+
 ## M2 编程接口
 
 <div class="cate-img" style="background-image: url(/assets/img/end5.jpg); filter: invert(1);"></div>
