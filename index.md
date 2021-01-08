@@ -39,7 +39,7 @@ layout: default
     {% endfor %}
 </ul>
 
-#### 数学 通识读本 [英] 蒂莫西·高尔斯
+#### 数学 牛津通识读本 [英] 蒂莫西·高尔斯
 
 <ul class = "main-list">
     {% for post in site.categories.SXTSDB reversed %}
@@ -49,7 +49,7 @@ layout: default
 
 ## E2 工程观点
 
-<div class="cate-img" style="background-image: url(/assets/img/end3.png); filter: invert(1); background-position: bottom;" ></div>
+<div class="cate-img" style="background-image: url(/assets/img/end3.png); filter: invert(1);"></div>
 
 ## M1 基础数学
 
@@ -60,18 +60,10 @@ layout: default
 
 ### 微积分
 
-#### 微积分学教程 [苏] Г.М.菲赫金哥尔茨
+#### 微积分学教程 [苏] 菲赫金哥尔茨
 
 <ul class = "main-list">
     {% for post in site.categories.WJFXJC reversed %}
-        <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-</ul>
-
-#### 微积分入门 [日] 小平邦彦
-
-<ul class = "main-list">
-    {% for post in site.categories.WJFRM reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
@@ -80,6 +72,14 @@ layout: default
 
 <ul class = "main-list">
     {% for post in site.categories.JMWJF reversed %}
+        <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+
+#### 微积分入门 [日] 小平邦彦
+
+<ul class = "main-list">
+    {% for post in site.categories.WJFRM reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
