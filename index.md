@@ -8,17 +8,11 @@ layout: default
 <div class="intro-img"><p>NEO JAPAN 2202 © Johnson Ting</p></div>
 <div class="intro"><p><strong>ABOUT</strong><br>© SILENSEA</p></div>
 
-<ul class = "main-list">
-    {% for post in site.categories.X reversed %}
-        <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-</ul>
-
 ## E1 数学观点
 
 <div class="cate-img" style="background-image: url(/assets/img/end7.jpg); filter: invert(1);"></div>
 
->数学的证明不是单纯的论证，还具有思考实验的意味。所谓理解证明，也不是确认论证中是否有错误，而是自己尝试重现思考实验的过程。  
+>想要更好地理解定理，仅仅读一遍定理的证明过程是远远不够的。反复阅读研究、做笔记，并且将定理运用于各种问题中才是有效的方法。做笔记的目的不是为了背诵证明过程，而是花时间去详细分析定理所要表达的数学事实的结构。  
 >—《堕者集》小平邦彦
 
 ### 文集
@@ -51,15 +45,12 @@ layout: default
 
 <div class="cate-img" style="background-image: url(/assets/img/end3.png); filter: invert(1); background-position: bottom;" ></div>
 
-<ul class = "main-list">
-    {% for post in site.categories.GCGD reversed %}
-        <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-</ul>
-
 ## M1 基础数学
 
 <div class="cate-img" style="background-image: url(/assets/img/end4.jpg); filter: invert(1);"></div>
+
+>数学必须遵循逻辑。不过，逻辑对于数学的作用类似于语法对于文学。书写符合语法的文章与用语法编织语言、创作小说是截然不同的。同样，依照逻辑进行推论与使用逻辑构筑数学理论也并非同一层面上的事。  
+>—《堕者集》小平邦彦
 
 ### 微积分
 
