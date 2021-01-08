@@ -9,7 +9,7 @@ layout: default
 <div class="intro"><p><strong>ABOUT</strong><br>© SILENSEA</p></div>
 
 <ul class = "main-list">
-    {% for post in site.categories.BJ reversed %}
+    {% for post in site.categories.SB reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
