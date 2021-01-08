@@ -8,6 +8,12 @@ layout: default
 <div class="intro-img"><p>NEO JAPAN 2202 © Johnson Ting</p></div>
 <div class="intro"><p><strong>ABOUT</strong><br>© SILENSEA</p></div>
 
+<ul class = "main-list">
+    {% for post in site.categories.BJ reversed %}
+        <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+
 ## E1 数学观点
 
 <div class="cate-img" style="background-image: url(/assets/img/end7.jpg); filter: invert(1);"></div>
