@@ -25,7 +25,7 @@ a:hover { color: #828282; }
 h1,h2,h3,h4,h5 { font-family: 'Roboto','NotoSerifSC'; }
 
 h2 {
-  padding: 0 0 5px 8px;
+  padding: 0 0 5px 4px;
   font-size: 19px;
   margin: 80px 0 0;
 }
@@ -125,12 +125,15 @@ h5 {
   filter: invert(1);
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
+/*
 .intro-img p {
   color: white;
   background-color: #005dcc;
 }
+*/
 
 .intro {
   font-size: 25px;
