@@ -39,7 +39,7 @@ layout: default
     {% endfor %}
 </ul>
 
-#### 数学 牛津通识读本 [英] 蒂莫西·高尔斯
+#### 数学 极短介绍 [英] 蒂莫西·高尔斯
 
 <ul class = "main-list">
     {% for post in site.categories.SXTSDB reversed %}
