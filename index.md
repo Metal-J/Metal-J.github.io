@@ -57,6 +57,14 @@ layout: default
     {% endfor %}
 </ul>
 
+#### Maki 多伦多大学 数学学院
+
+<ul class = "main-list">
+    {% for post in site.categories.Maki reversed %}
+        <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+
 ## E2 工程观点
 
 <div class="cate-img" style="background-image: url(/assets/img/end3.png); filter: invert(1);"></div>
