@@ -23,6 +23,14 @@ layout: default
 
 ### 文集
 
+#### 数学 极短介绍 [英] 蒂莫西·高尔斯
+
+<ul class = "main-list">
+    {% for post in site.categories.SXTSDB reversed %}
+        <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+
 #### 惰者集 [日] 小平邦彦
 
 <ul class = "main-list">
@@ -35,14 +43,6 @@ layout: default
 
 <ul class = "main-list">
     {% for post in site.categories.CYSH reversed %}
-        <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-</ul>
-
-#### 数学 极短介绍 [英] 蒂莫西·高尔斯
-
-<ul class = "main-list">
-    {% for post in site.categories.SXTSDB reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
