@@ -47,6 +47,16 @@ layout: default
     {% endfor %}
 </ul>
 
+### 资料
+
+#### dhchen Ph.D. in Mathematics
+
+<ul class = "main-list">
+    {% for post in site.categories.dhchen reversed %}
+        <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+
 ## E2 工程观点
 
 <div class="cate-img" style="background-image: url(/assets/img/end3.png); filter: invert(1);"></div>
