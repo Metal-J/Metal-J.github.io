@@ -8,7 +8,7 @@ layout: default
 <div class="intro-img"><p>NEO JAPAN 2202 © Johnson Ting</p></div>
 <div class="intro"><p><strong>ABOUT</strong><br>© SILENSEA</p></div>
 
->Keep it simple, keep it necessary.
+>Keep it simple, Keep it necessary.
 
 ## E1 数学观点
 
