@@ -9,7 +9,7 @@ layout: default
 
 ## E1 数学观点
 
-<div class="cate-img" style="background-image: url(/assets/img/end7.jpg); filter: invert(1);"></div>
+<div class="cate-img" style="background-image: url(/assets/img/T2.jpg); filter: invert(1);"></div>
 
 >想要更好地理解定理，仅仅读一遍定理的证明过程是远远不够的。反复阅读研究、做笔记，并且将定理运用于各种问题中才是有效的方法。做笔记的目的不是为了背诵证明过程，而是花时间去详细分析定理所要表达的数学事实的结构。—《堕者集》小平邦彦
 
@@ -59,7 +59,7 @@ layout: default
 
 ## M1 基础数学
 
-<div class="cate-img" style="background-image: url(/assets/img/end4.jpg); filter: invert(1);"></div>
+<div class="cate-img" style="background-image: url(/assets/img/T3.jpg); filter: invert(1);"></div>
 
 >数学必须遵循逻辑。不过，逻辑对于数学的作用类似于语法对于文学。书写符合语法的文章与用语法编织语言、创作小说是截然不同的。同样，依照逻辑进行推论与使用逻辑构筑数学理论也并非同一层面上的事。—《堕者集》小平邦彦
 
@@ -75,4 +75,4 @@ layout: default
 
 ## M2 计算机系统
 
-<div class="cate-img" style="background-image: url(/assets/img/end6.jpg);"></div>
+<div class="cate-img" style="background-image: url(/assets/img/T4.jpg);"></div>
