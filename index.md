@@ -8,6 +8,8 @@ layout: default
 <div class="intro-img"><p>NEO JAPAN 2202 © Johnson Ting</p></div>
 <div class="intro"><p><strong>ABOUT</strong><br>© SILENSEA</p></div>
 
+>Keep it simple, keep it necessary.
+
 ## E1 数学观点
 
 <div class="cate-img" style="background-image: url(/assets/img/end7.jpg); filter: invert(1);"></div>
