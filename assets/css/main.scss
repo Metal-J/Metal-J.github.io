@@ -284,6 +284,14 @@ em {
   color: #103b74;
 }
 
+.katex-display {
+  display: block;
+  margin: 2em 0!important;
+  text-align: center;
+  overflow-x: auto!important;
+  overflow-y: hidden!important;
+}
+
 // Footer
 
 .site-footer {
