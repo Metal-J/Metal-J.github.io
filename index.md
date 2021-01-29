@@ -65,6 +65,16 @@ layout: default
     {% endfor %}
 </ul>
 
+### DLC
+
+#### 二项式定理
+
+<ul class = "main-list">
+    {% for post in site.categories.DLC-exs reversed %}
+        <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+
 ## M2 计算机系统
 
 <div class="cate-img" style="background-image: url(/assets/img/T4.jpg);"></div>
