@@ -41,7 +41,7 @@ layout: default
 
 ### 资料
 
-#### dhchen Ph.D. in Mathematics
+#### 数学方法 dhchen Ph.D. in Mathematics
 
 <ul class = "main-list">
     {% for post in site.categories.dhchen reversed %}
@@ -65,9 +65,7 @@ layout: default
     {% endfor %}
 </ul>
 
-### DLC
-
-#### 二项式定理
+### 其他
 
 <ul class = "main-list">
     {% for post in site.categories.DLC-exs reversed %}
