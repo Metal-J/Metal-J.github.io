@@ -5,9 +5,9 @@ layout: default
 >The site is for **learning purposes** and **personal use only**
 
 <div class="intro-img"><p>NEO JAPAN 2202 © Johnson Ting</p></div>
-<div class="intro"><p><strong>弃剑集</strong><br>© Simple&Necessary</p></div>
+<div class="intro"><p><strong>弃剑集</strong><br>©</p></div>
 
-## E1 数学观点
+## E1 观点
 
 <div class="cate-img" style="background-image: url(/assets/img/T2.jpg); filter: invert(1);"></div>
 
@@ -49,7 +49,7 @@ layout: default
     {% endfor %}
 </ul>
 
-## M1 基础数学
+## M1 基础
 
 <div class="cate-img" style="background-image: url(/assets/img/T3.jpg); filter: invert(1);"></div>
 
@@ -73,6 +73,6 @@ layout: default
     {% endfor %}
 </ul>
 
-## M2 计算机系统
+## M2 系统
 
 <div class="cate-img" style="background-image: url(/assets/img/T4.jpg);"></div>
