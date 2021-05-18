@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="intro-img"><p>NEO JAPAN 2202 © Johnson Ting</p></div>
+<div class="intro-img"><p>洞 庭 风 细 © 马 远（宋</p></div>
 
 ## E1 观点
 
