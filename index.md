@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="intro-img"><p>Copyright © 2020-2019 弃剑集</p></div>
+<div class="intro-img"><p>Copyright © 2020-2019 · 弃剑集</p></div>
 
 ## E1 观点
 
