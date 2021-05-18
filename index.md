@@ -59,7 +59,7 @@ layout: default
 ### 其他
 
 <ul class = "main-list">
-    {% for post in site.categories.DLC-exs reversed %}
+    {% for post in site.categories.QITA reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
