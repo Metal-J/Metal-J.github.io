@@ -2,10 +2,10 @@
 layout: default
 ---
 
-# >The site is for **learning purposes** and **personal use only**
+<!-- >The site is for **learning purposes** and **personal use only** -->
 
 <div class="intro-img"><p>NEO JAPAN 2202 © Johnson Ting</p></div>
-# <div class="intro"><p><strong>SILENSEA</strong><br>© Simple&Necessary</p></div>
+<!-- <div class="intro"><p><strong>SILENSEA</strong><br>© Simple&Necessary</p></div> -->
 
 ## E1 观点
 
