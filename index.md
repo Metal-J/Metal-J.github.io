@@ -10,7 +10,7 @@ layout: default
 
 ### 文集
 
-#### 数学 简述 [英] 蒂莫西·高尔斯
+#### 数学 [英] 蒂莫西·高尔斯
 
 <ul class = "main-list">
     {% for post in site.categories.A11 reversed %}
@@ -26,7 +26,7 @@ layout: default
     {% endfor %}
 </ul>
 
-#### 春宵十話 随筆集 [日] 岡潔
+#### 春夜十话 [日] 岡潔
 
 <ul class = "main-list">
     {% for post in site.categories.CYSH reversed %}
@@ -34,7 +34,7 @@ layout: default
     {% endfor %}
 </ul>
 
-#### 数学方法 dhchen Ph.D. in Mathematics
+#### 数学方法 dhchen
 
 <ul class = "main-list">
     {% for post in site.categories.dhchen reversed %}
@@ -48,7 +48,7 @@ layout: default
 
 ### 微积分
 
-#### 简明微积分 [中科大] 龚昇
+#### 简明微积分 龚昇
 
 <ul class = "main-list">
     {% for post in site.categories.JMWJF reversed %}
