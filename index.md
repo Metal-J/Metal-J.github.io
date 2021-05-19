@@ -10,7 +10,7 @@ layout: default
 
 ### 文集
 
-#### 数学 极短介绍 [英] 蒂莫西·高尔斯
+#### 数学 [英] 蒂莫西·高尔斯
 
 <ul class = "main-list">
     {% for post in site.categories.SXTSDB reversed %}
