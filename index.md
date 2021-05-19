@@ -4,7 +4,7 @@ layout: default
 
 <div class="intro-img"><p>Copyright © 2020-2019 · 弃剑集</p></div>
 
-## E1 观点
+## 观点
 
 >
 
@@ -42,7 +42,7 @@ layout: default
     {% endfor %}
 </ul>
 
-## M1 基础
+## 基础
 
 >
 
@@ -64,4 +64,4 @@ layout: default
     {% endfor %}
 </ul>
 
-## M2 系统
+## 系统
