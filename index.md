@@ -21,7 +21,7 @@ layout: default
 #### 惰者集 [日] 小平邦彦
 
 <ul class = "main-list">
-    {% for post in site.categories.DZJ reversed %}
+    {% for post in site.categories.A12 reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
@@ -37,7 +37,7 @@ layout: default
 #### 数学方法 dhchen
 
 <ul class = "main-list">
-    {% for post in site.categories.dhchen reversed %}
+    {% for post in site.categories.A14 reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
