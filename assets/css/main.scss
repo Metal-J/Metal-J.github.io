@@ -116,18 +116,21 @@ h5 {
 
 .intro-img {
   background: url(/assets/img/T1.jpeg);
-  background-repeat: no-repeat;
+  background-repeat: space;
   background-position: center;
   background-size: contain;
   margin: 30px auto 0;
-  width: 280px;
-  height: 280px;
-  border-radius: 500px;
+  width: 410px;
+  height: 410px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.intro-img p {
   font-family: 'Roboto','NotoSerifSC';
   text-align: center;
+  color: #3d3d3d;
 }
 
 // toc
