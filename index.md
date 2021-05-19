@@ -10,10 +10,10 @@ layout: default
 
 ### 文集
 
-#### 数学 [英] 蒂莫西·高尔斯
+#### 数学 简述 [英] 蒂莫西·高尔斯
 
 <ul class = "main-list">
-    {% for post in site.categories.A1 reversed %}
+    {% for post in site.categories.A11 reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
