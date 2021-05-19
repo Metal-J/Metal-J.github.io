@@ -29,7 +29,7 @@ layout: default
 #### 春夜十话 [日] 岡潔
 
 <ul class = "main-list">
-    {% for post in site.categories.CYSH reversed %}
+    {% for post in site.categories.A13 reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
@@ -51,7 +51,7 @@ layout: default
 #### 简明微积分 龚昇
 
 <ul class = "main-list">
-    {% for post in site.categories.JMWJF reversed %}
+    {% for post in site.categories.B11 reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
