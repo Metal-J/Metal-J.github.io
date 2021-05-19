@@ -72,7 +72,7 @@ h5 {
 
 .site-title {
   color: #1b2229!important;
-  font-family: 'Raleway';
+  font-family: 'NotoSerifSC','Raleway';
 }
 
 // Home
@@ -115,40 +115,22 @@ h5 {
 }
 
 .intro-img {
-  background: url(/assets/img/T1.jpg);
+  background: url(/assets/img/T1.jpeg);
   background-repeat: no-repeat;
-  background-size: contain;
   background-position: center;
+  background-size: contain;
   margin: 30px auto 0;
-  width: 250px;
-  height: 250px;
-  filter: invert(1);
+  width: 280px;
+  height: 280px;
+  border-radius: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.intro {
-  font-size: 25px;
-  font-family: 'Roboto';
-  word-break: keep-all;
-  padding: 0 14px;
-}
-
-.cate-img {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  border-radius: 3px;
-  height: 100px;
+  font-family: 'Roboto','NotoSerifSC';
+  text-align: center;
 }
 
 // toc
-
-.toc-title {
-  font-size: 15px;
-  font-family: "Raleway"; 
-}
 
 .toc-bar { 
   width: 320px;
