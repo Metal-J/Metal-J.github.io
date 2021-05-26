@@ -115,38 +115,20 @@ h5 {
 }
 
 .intro-img {
-  display: flex;
-}
-
-.intro-img-1 {
-  background: url(/assets/img/T1.jpeg);
+  background: url(/assets/img/6.jpeg);
   background-repeat: space;
   background-position: center;
   background-size: contain;
+
   margin: 30px auto 0;
   width: 300px;
   height: 400px;
+  filter: invert();
+
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
-.intro-img-2 {
-  background: url(/assets/img/T2.jpg);
-}
-
-.intro-img-3 {
-  background: url(/assets/img/T3.jpg);
-}
-
-.intro-img-4 {
-  background: url(/assets/img/T4.jpg);
-}
-
-.intro-img-4 {
-  background: url(/assets/img/T5.png);
-}
-
 
 // toc
 

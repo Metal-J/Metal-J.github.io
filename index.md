@@ -2,13 +2,7 @@
 layout: default
 ---
 
-<div class="intro-img">
-    <div class="intro-img-1"></div>
-    <div class="intro-img-2"></div>
-    <div class="intro-img-3"></div>
-    <div class="intro-img-4"></div>
-    <div class="intro-img-5"></div>
-</div>
+<div class="intro-img"></div>
 
 ## 原理
 
