@@ -115,6 +115,10 @@ h5 {
 }
 
 .intro-img {
+  display: flex;
+}
+
+.intro-img-1 {
   background: url(/assets/img/T1.jpeg);
   background-repeat: space;
   background-position: center;
@@ -126,6 +130,23 @@ h5 {
   flex-direction: column;
   justify-content: center;
 }
+
+.intro-img-2 {
+  background: url(/assets/img/T2.jpg);
+}
+
+.intro-img-3 {
+  background: url(/assets/img/T3.jpg);
+}
+
+.intro-img-4 {
+  background: url(/assets/img/T4.jpg);
+}
+
+.intro-img-4 {
+  background: url(/assets/img/T5.png);
+}
+
 
 // toc
 
