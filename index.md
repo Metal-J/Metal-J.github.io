@@ -2,15 +2,13 @@
 layout: default
 ---
 
-<div class="intro-img"></div>
-
 ## 原理
 
 > 
 
 ### 微积分
 
-#### 微积分
+#### 函数与极限
 
 <ul class = "main-list">
     {% for post in site.categories.A11 reversed %}
@@ -22,9 +20,9 @@ layout: default
 
 >
 
-### 计算机系统
+### 计算机组成
 
-#### 计算机组成
+#### 指令集
 
 <ul class = "main-list">
     {% for post in site.categories.A11 reversed %}
