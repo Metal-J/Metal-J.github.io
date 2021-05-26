@@ -22,7 +22,7 @@ a { text-decoration: none; width: fit-content; }
 a:link,a:visited { color: #1756a9; }
 a:hover { color: #828282; }
 
-h1,h2,h3,h4,h5 { font-family: 'Roboto','NotoSerifSC'; }
+h1,h2,h3,h4,h5 { font-family: 'Raleway','NotoSerifSC'; }
 
 h2 {
   padding: 0 0 5px 11.5px;
@@ -45,7 +45,7 @@ h4 {
 
 h5 {
   padding-left: 11px;
-  margin: 30px 3px 14px;
+  margin: 30px 3px 15px;
   color: #103b74;
 }
 
@@ -64,7 +64,7 @@ h5 {
 }
 
 .header-wrapper {
-  height: 40px;
+  height: 35px;
   display: flex;
   align-items: center;
 }
@@ -83,9 +83,9 @@ h5 {
   background-size: contain;
   background-position: center;
 
-  margin: 30px auto 0;
+  margin: 40px auto 0;
   width: 250px;
-  height: 250px;
+  height: 285px;
   filter: invert(1);
 }
 
@@ -141,8 +141,8 @@ h5 {
 }
 
 .toc-title {
-  font-family: 'Roboto';
-  font-size: 14.5px;
+  font-family: 'Raleway';
+  font-size: 13px;
 }
 
 #toc ul { padding: 5px 0 15px 0; }
@@ -299,10 +299,10 @@ em {
 }
 
 .u-email {
-  font-size: 10.5px;
+  font-size: 11px;
 }
 
 .rights , .toc-footer-tile {
-  font-size: 0.6em;
+  font-size: 0.8em;
   margin: 2px 0;
 }
