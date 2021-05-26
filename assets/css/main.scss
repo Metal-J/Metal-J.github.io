@@ -210,14 +210,6 @@ h1 {
   margin: 40px 0 0 0;
 }
 
-.post-content ul li {
-  
-}
-
-.post-content ul {
-  
-}
-
 .post-content p {
   font-size: 14px;
   padding: 0 14px;
@@ -225,9 +217,9 @@ h1 {
 }
 
 .post-meta {
-  margin: 10px 0 40px;
+  margin: 5px 0 40px;
   color: #828282;
-  font-size: 14px;
+  font-size: 11.5px;
 } 
 
 code {
@@ -238,12 +230,8 @@ code {
 }
 
 strong {
-  padding: 0 2px;
+  padding: 0 1.5px;
   line-height: 1em;
-}
-
-.katex-display {
-  font-size: small;
 }
 
 blockquote {
@@ -256,9 +244,8 @@ blockquote p {
   color: grey;
 }
 
-em {
-  font-style: unset;
-  color: #103b74;
+.katex-display {
+  font-size: small;
 }
 
 .katex-display {
