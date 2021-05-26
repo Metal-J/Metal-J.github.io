@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<div class="intro-img"><p>NEO JAPAN 2202 © Johnson Ting</p></div>
+
 ## 原理
 
 > 
