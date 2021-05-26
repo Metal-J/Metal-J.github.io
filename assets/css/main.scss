@@ -72,7 +72,7 @@ h5 {
 .site-title {
   color: #1b2229!important;
   font-family: 'NotoSerifSC';
-  font-size: initial;
+  font-size: 10px;
 }
 
 // Home
@@ -264,18 +264,6 @@ em {
   padding: 60px 10px 20px 10px;
   font-size: 0.8rem;
   color: #828282;
-}
-
-.social-media-list a{
-  display: flex;
-  align-items: center;
-}
-
-.svg-icon {
-  width: 16px;
-  height: 16px;
-  fill: #828282;
-  padding: 5px;
 }
 
 .toc-footer {
