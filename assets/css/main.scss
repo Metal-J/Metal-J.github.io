@@ -140,6 +140,11 @@ h5 {
   padding-right: 15px;
 }
 
+.toc-title {
+  font-family: 'Roboto';
+  font-size: 14.5px;
+}
+
 #toc ul { padding: 5px 0 15px 0; }
 
 #toc ul li li { list-style: none !important; }
@@ -280,10 +285,6 @@ em {
 
 .footer-heading {
   margin: 4px 0 10px 1px;
-}
-
-.toc-title {
-  
 }
 
 .toc-footer {
