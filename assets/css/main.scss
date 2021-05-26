@@ -216,6 +216,12 @@ h1 {
   font-family: 'Roboto',$base-font-family; 
 }
 
+.post-content img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .post-meta {
   margin: 5px 0 40px;
   color: #828282;
