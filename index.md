@@ -4,7 +4,9 @@ layout: default
 
 <div class="intro-img"></div>
 
-## 基础
+## 原理 Foundation
+
+> 
 
 ### 微积分
 
@@ -13,3 +15,7 @@ layout: default
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
+
+## 系统 System
+
+>
