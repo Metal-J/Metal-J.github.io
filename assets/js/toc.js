@@ -3,7 +3,7 @@
   $.fn.toc = function(options) {
     var defaults = {
       noBackToTopLinks: true,
-      title: 'INDEX',
+      title: '<p class="toc-title">CATALOGUE INDEX</p>',
       minimumHeaders: 0,
       headers: 'h1, h2, h3, h4, h5',
       listType: 'ul', // values: [ol|ul]
