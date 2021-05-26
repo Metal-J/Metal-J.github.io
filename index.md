@@ -4,8 +4,6 @@ layout: default
 
 <div class="intro-img"></div>
 
-<div class="index-img-1"></div>
-
 ## 原理
 
 > 
@@ -19,8 +17,6 @@ layout: default
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
-
-<div class="index-img-2"></div>
 
 ## 系统
 
