@@ -4,7 +4,7 @@ layout: default
 
 <div class="intro-img"></div>
 
-## 原理 Foundation
+## 原理
 
 > 
 
@@ -16,6 +16,6 @@ layout: default
     {% endfor %}
 </ul>
 
-## 系统 System
+## 系统
 
 >
