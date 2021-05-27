@@ -4,13 +4,13 @@ layout: default
 
 <div class="intro-img"></div>
 
-##  测试 TEST 测试 TEST
+##  示例 Examples
 
-> 测试 TEST 测试 TEST 测试 TEST 测试 TEST 测试 TEST 测试 TEST 测试 TEST 测试 TEST 测试 TEST 测试 TEST 测试 TEST
+> 示例 Examples 示例 Examples 示例 Examples 示例 Examples 示例 Examples 示例 Examples 示例 Examples 示例 Examples 示例 Examples 示例 Examples 示例 Examples 示例 Examples 示例 Examples 示例 Examples 示例 Examples 示例 Examples 示例 Examples 示例 Examples
 
-###  测试 TEST 测试 TEST
+###  示例 Examples
 
-####  测试 TEST 测试 TEST 测试 TEST
+####  示例 Examples
 
 <ul class = "main-list">
     {% for post in site.categories.A11 reversed %}
