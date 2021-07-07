@@ -18,7 +18,7 @@ html,body {
 
 li,ol,ul { list-style: none; }
 
-a { text-decoration: none; width: fit-content; }
+a { text-decoration: none; width: fit-content; width: -moz-fit-content; }
 a:link,a:visited { color: #1756a9; }
 a:hover { color: #828282; }
 
