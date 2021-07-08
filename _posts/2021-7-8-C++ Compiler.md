@@ -26,7 +26,9 @@ each of C++ files called translation units
 but one C++ files can include many other C++ file and result in just one translation unit  
 generated to an object file  
 
-object file is binary Machine code
+object file is binary  Machine code constant data we defined
+
+next step is linking them into one executable which contains all of the machine code that we actually need to run
 
 files dont exists in C++  
 In java class name has to be tied to file name
