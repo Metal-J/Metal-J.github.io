@@ -11,7 +11,7 @@ categories: S11
 Text Compiling intermediate_format(object file) Linking Binary
 
 Compiling:  
-Pre-process: Any Preprocess_statements get evaluated  
+Pre-process: Any Preprocess_statements get evaluated(在编译检查前)  
 
 Tokenizing: 用随机生成的标识符代替（敏感数据），以防止未经授权的访问。  
 
@@ -25,6 +25,8 @@ constant data instruction
 each of C++ files called translation units  
 but one C++ files can include many other C++ file and result in just one translation unit  
 generated to an object file  
+
+object file is binary Machine code
 
 files dont exists in C++  
 In java class name has to be tied to file name
