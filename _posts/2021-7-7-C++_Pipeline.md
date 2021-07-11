@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The C++ Pipeline
+title: C++ Pipeline
 categories: S11
 ---
 
