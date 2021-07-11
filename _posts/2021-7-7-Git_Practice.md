@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Git
+title: Git Practice
 categories: S11
 ---
 
