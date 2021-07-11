@@ -36,6 +36,10 @@ sizeof() 读取数据类型的字节数
 
 ### 函数
 
-function is function 便于抽象和调用
-in class it called methods 
-call a function compiler generates a call instruction
+function is function 便于抽象和调用  
+in class it called methods  
+call a function compiler generates a call instruction  
+in a running program in order for us to call a function we need to create the entire stack frame  
+have to push things like parameters onto the stack and push something called return address onto stack and jump to a different part of binary in order to start executing the instructions from our function and that return value that we push we need to get back to where we originally were before we call the fuction(假设编译器对函数的处理不是inline的)
+
+### 头文件
