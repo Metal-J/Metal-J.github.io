@@ -68,8 +68,6 @@ std::cout.print("Hello World!").print(std::endl);
 
 #### 编译 Compiling
 
-> From [The Cherno](https://www.youtube.com/channel/UCQ-W1KE9EYfdxhL6S4twUNw) How the C++ Compiler Works
-
 **Text → Compiling → object file/Binary → Linking → Executable**
 
 ##### Compiling → Object file/Binary
@@ -227,8 +225,6 @@ int Mt(int a, int b)
 ```
 
 #### 链接 Linking
-
-> From [The Cherno](https://www.youtube.com/watch?v=H4s55GgAg0I&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=7) How the C++ Linker Works
 
 **Compiling** ctrl+f7 compile no linking **Build** ctrl+f5 linking 
 
