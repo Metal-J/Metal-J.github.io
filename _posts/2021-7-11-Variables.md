@@ -43,3 +43,23 @@ in a running program in order for us to call a function we need to create the en
 have to push things like parameters onto the stack and push something called return address onto stack and jump to a different part of binary in order to start executing the instructions from our function and that return value that we push we need to get back to where we originally were before we call the fuction(假设编译器对函数的处理不是inline的)
 
 ### 头文件
+
+java 和 C# 没有头文件以及相关概念
+
+#pragma once
+
+include this file once / header guide 
+prevent us from including a single header file multiple times into a single translation unit
+如果不开启 则会重复在一个翻译单元中重复包含 但开启可以自动处理滚雪球的包含中的重复冲突  
+GCC clang SBC all support pragma once  
+
+#include "../Log.h" relative to this current file  
+#include <iostream> include directories  
+#include "iostream" 双引号其实都可以 
+c++标准库没有文件扩展名 c有
+
+### Debug
+
+breakpoint to memory  
+when execution to the line it will pause  
+f9 and clik on code 真正运行的
