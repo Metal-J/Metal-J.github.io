@@ -281,6 +281,13 @@ blockquote p {
   overflow-y: hidden!important;
 }
 
+.post-content li, ol, ul {
+  list-style: disc;
+  font-family: 'KaTeX_Main';
+  font-size: 13px;
+  color: black;
+}
+
 // Footer
 
 .site-footer {
