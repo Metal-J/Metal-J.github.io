@@ -4,7 +4,7 @@ title: Ray Tracing
 categories: S11
 ---
 
-```
+<pre class="prettyprint">
 #include <iostream>
 
 int main() {
@@ -32,4 +32,8 @@ int main() {
 		}
 	}
 }
-```
+
+int x = foo();  /* This is a comment  <span class="nocode">This is not code</span>
+  Continuation of comment */
+int y = bar();
+</pre>
