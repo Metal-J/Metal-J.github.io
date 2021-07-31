@@ -4,12 +4,12 @@ title: Ray Tracing
 categories: S11
 ---
 
-<pre class="prettyprint">
+```
 #include "vec3.h"
 #include "color.h"
 #include "ray.h"
 
-#include "iostream"
+#include <iostream>
 
 bool hit_sphere(const point3& center, double radius, const ray& r) {
 	vec3 oc = r.origin() - center;
@@ -63,4 +63,4 @@ int main() {
 
 	std::cerr << "\nDone.\n";
 }
-</pre>
+```

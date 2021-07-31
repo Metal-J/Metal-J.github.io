@@ -230,10 +230,11 @@ h1 {
   font-size: 11.5px;
 } 
 
-.prettyprint {
+pre code {
   font-family: RobotoMono;
   font-size: small;
   overflow: auto;
+  padding: 0!important;
 }
 
 strong {
