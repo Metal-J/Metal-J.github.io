@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rendering Equation
+title: Rendering Equation 渲染方程 
 categories: D11
 ---
 

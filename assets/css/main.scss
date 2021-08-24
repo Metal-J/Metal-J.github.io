@@ -236,6 +236,12 @@ pre code {
   overflow: auto;
 }
 
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0em 1.8em!important;
+}
+
 strong {
   padding: 0 1.5px;
   line-height: 1em;
