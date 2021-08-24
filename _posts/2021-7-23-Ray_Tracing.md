@@ -1,6 +1,6 @@
 ---
 layout: post
 title: Ray Tracing
-categories: S11
+categories: D11
 ---
 

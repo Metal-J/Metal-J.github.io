@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Rendering Equation
-categories: S11
+categories: D11
 ---
 
 ##### 辐射度量学 Radiometry
