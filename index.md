@@ -6,7 +6,7 @@ layout: default
 
 ##  夜泊集
 
-> 
+> 居逆境中，周身皆针砭药石，砥节砺行而不觉；处顺境内，眼前尽兵刃戈矛，销膏靡骨而不知。
 
 ###  思想 Culture
 
@@ -17,6 +17,8 @@ layout: default
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
+
+---
 
 ###  系统 System
 
@@ -36,6 +38,7 @@ layout: default
     {% endfor %}
 </ul>
 
+---
 
 ###  设计 Design
 
