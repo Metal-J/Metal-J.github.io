@@ -18,8 +18,6 @@ layout: default
     {% endfor %}
 </ul>
 
----
-
 ###  系统 System
 
 ####  编程语言
@@ -37,8 +35,6 @@ layout: default
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
-
----
 
 ###  设计 Design
 
