@@ -20,6 +20,14 @@ layout: default
 
 ###  系统 System
 
+#### 数学
+
+<ul class = "main-list">
+    {% for post in site.categories.S01 reversed %}
+        <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+
 ####  编程语言
 
 <ul class = "main-list">
