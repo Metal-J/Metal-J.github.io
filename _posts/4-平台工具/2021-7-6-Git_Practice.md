@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Git Practice
-categories: S12
+categories: T1
 ---
 
 *Failed to connect to github.com port 443 Timed out*

@@ -8,48 +8,50 @@ layout: default
 
 > Pre Production Pre Production Pre Production Pre Production Pre Production Pre Production Pre Production Pre Production Pre ProductionPre Production Pre Production Pre Production Pre Production Pre Production Pre Production Pre Production Pre Production Pre Production Pre Production Pre Production 
 
-###  思想 Culture
-
-####  语言哲学
+#### 哲学思想
 
 <ul class = "main-list">
-    {% for post in site.categories.A11 reversed %}
+    {% for post in site.categories.P1 reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
 
-###  系统 System
-
-#### 数学
+#### 基础数学 
 
 <ul class = "main-list">
-    {% for post in site.categories.S01 reversed %}
+    {% for post in site.categories.M1 reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
 
-####  编程语言
+#### C++
 
 <ul class = "main-list">
-    {% for post in site.categories.S11 reversed %}
+    {% for post in site.categories.L1 reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
 
-####  工具
+#### 平台工具
 
 <ul class = "main-list">
-    {% for post in site.categories.S12 reversed %}
+    {% for post in site.categories.T1 reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
 
-###  设计 Design
-
-####  图形 Graphics
+#### 图形渲染
 
 <ul class = "main-list">
-    {% for post in site.categories.D11 reversed %}
+    {% for post in site.categories.G1 reversed %}
+        <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+
+#### 其它
+
+<ul class = "main-list">
+    {% for post in site.categories.O1 reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
