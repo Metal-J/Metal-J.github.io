@@ -8,10 +8,12 @@ layout: default
 
 > Pre Production Pre Production Pre Production Pre Production Pre Production Pre Production Pre Production Pre Production Pre ProductionPre Production Pre Production Pre Production Pre Production Pre Production Pre Production Pre Production Pre Production Pre Production Pre Production Pre Production 
 
+
+
 #### 哲学思想
 
 <ul class = "main-list">
-    {% for post in site.categories.P1 reversed %}
+    {% for post in site.categories.phi reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
@@ -19,7 +21,7 @@ layout: default
 #### 基础数学 
 
 <ul class = "main-list">
-    {% for post in site.categories.M1 reversed %}
+    {% for post in site.categories.math reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
@@ -27,7 +29,7 @@ layout: default
 #### C++
 
 <ul class = "main-list">
-    {% for post in site.categories.L1 reversed %}
+    {% for post in site.categories.pro reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
@@ -35,7 +37,7 @@ layout: default
 #### 平台工具
 
 <ul class = "main-list">
-    {% for post in site.categories.T1 reversed %}
+    {% for post in site.categories.tool reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
@@ -43,7 +45,15 @@ layout: default
 #### 图形渲染
 
 <ul class = "main-list">
-    {% for post in site.categories.G1 reversed %}
+    {% for post in site.categories.gra reversed %}
+        <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+
+#### 制作
+
+<ul class = "main-list">
+    {% for post in site.categories.production reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
@@ -51,7 +61,7 @@ layout: default
 #### 其它
 
 <ul class = "main-list">
-    {% for post in site.categories.O1 reversed %}
+    {% for post in site.categories.other reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>

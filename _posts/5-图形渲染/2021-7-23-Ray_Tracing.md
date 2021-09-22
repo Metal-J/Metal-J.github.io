@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 光线追踪 一
-categories: G1
+categories: gra
 ---
 
 <img src="/material/RayTracing/像素矩阵.png" />

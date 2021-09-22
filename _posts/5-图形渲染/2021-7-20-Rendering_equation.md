@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Rendering Equation 渲染方程 
-categories: G1
+categories: gra
 ---
 
 ##### 辐射度量学 Radiometry

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: C++ Pipeline
-categories: L1
+categories: pro
 ---
 
 > From [The Cherno](https://www.youtube.com/channel/UCQ-W1KE9EYfdxhL6S4twUNw) C++
