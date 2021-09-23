@@ -52,6 +52,8 @@ layout: default
 
 #### 制作
 
+> 现代制作流、管线与方法论研究
+
 <ul class = "main-list">
     {% for post in site.categories.production reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
