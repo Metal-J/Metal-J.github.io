@@ -4,11 +4,11 @@ title: 维特根斯坦概述
 categories: phi
 ---
 
+> 由南京大学 陈亚军 英美哲学思想概述 课堂笔记编辑整理而成
+
 ### 维特根斯坦：概述
 
 ##### 由认识论转向语言哲学
-
->【注】由南京大学 陈亚军 英美哲学思想概述 课堂笔记编辑整理而成
 
 维特根斯坦（Ludwig Josef Johann Wittgenstein,1889-1951）20世纪重要哲学家，思想分为早期与后期。分别影响了英美哲学两股对照的哲学思潮：人工语言（逻辑实证主义），日常语言（牛津学派）。对欧陆哲学乃至后现代哲学影响较大。
 
@@ -79,54 +79,3 @@ categories: phi
 >【注】陈亚军：维反对**本质主义**，认为是通过相似的，即自己联想的，来构建相同，而界限是根据其历史发展过程中的实践目的划下的。概念是不断变化发展的（是深化的）。这种观点是**反近代哲学**的，是对近代哲学思考根基的动摇，是从皮尔士**实用主义**开始的。传统哲学就是在语言工具中把所有认识工具的多样性排除掉，想找出一个统一的/普遍的认识观点。
 
 可能，维前期是用语言本身来分析哲学，而后期是通过分析语言本身来分析哲学。
-
-#### 测试内容
-
-##### Link
-
-[简书](http://jianshu.com)
-[百度](http://baidu.com)
-[link](test.html)
-
-##### KaTeX
-
-$$f(x) = sin(x) + 12$$
-
-$$ \sum_{f(x)}^{sin(x)} 100 $$
-
-$$ \lim_{x\to\infty} x^2[arctan(1+\frac{1}{x})-arctan(1+\frac{1}{x+1})] $$
-
-$$ \left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right) $$
-
-##### Code
-
-```
-#!/usr/bin/ruby
- 
-require 'cgi'
-require 'cgi/session'
-cgi = CGI.new("html4")
- 
-sess = CGI::Session.new( cgi, "session_key" =>【注】 "a_test", "prefix" =>【注】 "rubysess.")
-lastaccess = sess["lastaccess"].to_s
-sess["lastaccess"] = Time.now
-if cgi['bgcolor'][0] =~ /[a-z]/
-  sess["bgcolor"] = cgi['bgcolor']
-end
-
-cgi.out{
-  cgi.html {
-    cgi.body ("bgcolor" =>【注】 sess["bgcolor"]){
-      "The background of this page"    +
-      "changes based on the 'bgcolor'" +
-      "each user has in session."      +
-      "Last access time: #{lastaccess}"
-    }
-  }
-}
-```
-##### Unformatted
-
-<img src="/assets/img/DaVinci_1.jpeg" alt="DaVinci" />
-<img src="/assets/img/DaVinci_2.jpeg" alt="DaVinci" />
-<img src="/assets/img/Newton.jpeg" alt="Newton" />
