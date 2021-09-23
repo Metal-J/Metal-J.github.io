@@ -32,7 +32,7 @@ layout: default
     {% endfor %}
 </ul>
 
-#### 平台工具
+#### 工具
 
 <ul class = "main-list">
     {% for post in site.categories.tool reversed %}
@@ -48,9 +48,7 @@ layout: default
     {% endfor %}
 </ul>
 
-#### 制作
-
-> 现代制作流、管线与方法论研究
+#### 制作管线与方法论
 
 <ul class = "main-list">
     {% for post in site.categories.production reversed %}
