@@ -48,7 +48,7 @@ layout: default
     {% endfor %}
 </ul>
 
-#### 制作管线与方法论
+#### 制作流、管线与方法论
 
 <ul class = "main-list">
     {% for post in site.categories.production reversed %}
