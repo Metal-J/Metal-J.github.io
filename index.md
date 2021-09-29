@@ -4,6 +4,10 @@ layout: default
 
 <div class="intro-img"></div>
 
+## Metal-J.Github.io
+
+### Fundamental
+
 #### 哲学思想
 
 <ul class = "main-list">
@@ -36,6 +40,8 @@ layout: default
     {% endfor %}
 </ul>
 
+### Project
+
 #### 图形渲染
 
 <ul class = "main-list">
@@ -59,6 +65,8 @@ layout: default
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
+
+### Others
 
 #### 其它
 
