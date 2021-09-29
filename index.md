@@ -23,7 +23,7 @@ layout: default
 #### C++
 
 <ul class = "main-list">
-    {% for post in site.categories.pro reversed %}
+    {% for post in site.categories.cpp reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
@@ -39,7 +39,7 @@ layout: default
 #### 图形渲染
 
 <ul class = "main-list">
-    {% for post in site.categories.gra reversed %}
+    {% for post in site.categories.graphic reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
@@ -48,6 +48,14 @@ layout: default
 
 <ul class = "main-list">
     {% for post in site.categories.production reversed %}
+        <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+
+#### 区块链与交易
+
+<ul class = "main-list">
+    {% for post in site.categories.blockchain reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
