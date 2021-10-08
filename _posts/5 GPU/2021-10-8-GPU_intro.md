@@ -1,5 +1,5 @@
 ---
 layout: post
-title: GPU综述
+title: GPU 概述
 categories: GPU
 ---

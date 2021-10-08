@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 光线追踪 一
+title: 光线追踪
 categories: graphic
 ---
 

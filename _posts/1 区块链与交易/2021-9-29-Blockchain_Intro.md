@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 区块链 基本概念
+title: 区块链 概述
 categories: blockchain
 ---
 

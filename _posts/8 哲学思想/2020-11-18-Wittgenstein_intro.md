@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 维特根斯坦概述
+title: 维特根斯坦 概述
 categories: phi
 ---
 
