@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 文献综述
+title: 制作管理综述
 categories: production
 ---
 

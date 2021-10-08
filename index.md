@@ -4,13 +4,21 @@ layout: default
 
 <div class="intro-img"></div>
 
-#### 哲学思想
+
+
+### NEW AREA 探索
+
+#### 区块链
 
 <ul class = "main-list">
-    {% for post in site.categories.phi reversed %}
+    {% for post in site.categories.blockchain reversed %}
         <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
+
+
+
+### SYSTEM 系统
 
 #### 基础数学 
 
@@ -36,6 +44,14 @@ layout: default
     {% endfor %}
 </ul>
 
+#### GPU
+
+<ul class = "main-list">
+    {% for post in site.categories.GPU reversed %}
+        <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+
 #### 图形渲染
 
 <ul class = "main-list">
@@ -44,7 +60,19 @@ layout: default
     {% endfor %}
 </ul>
 
-#### 制作流、管线与方法论
+
+
+### PROJECT 制作
+
+#### 哲学思想
+
+<ul class = "main-list">
+    {% for post in site.categories.phi reversed %}
+        <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+
+#### 项目制作管理
 
 <ul class = "main-list">
     {% for post in site.categories.production reversed %}
@@ -52,15 +80,9 @@ layout: default
     {% endfor %}
 </ul>
 
-#### 区块链与交易
 
-<ul class = "main-list">
-    {% for post in site.categories.blockchain reversed %}
-        <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-</ul>
 
-#### 其它
+### INFO 其它
 
 <ul class = "main-list">
     {% for post in site.categories.other reversed %}
