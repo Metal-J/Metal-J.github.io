@@ -105,6 +105,21 @@ h5 {
   }
 }
 
+.content-block {
+  display: flex;
+}
+
+@media only screen and (max-width: 1150px) {
+  .content-block {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.content-list {
+  flex: 1;
+}
+
 .main-list {
   padding: 0 14px;
 }
