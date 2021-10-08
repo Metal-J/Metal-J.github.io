@@ -6,9 +6,9 @@ layout: default
 
 
 
-### NEW AREA 探索
+<h3 id="new-area-探索" class="clickable-header"> NEW AREA 探索 </h3>
 
-#### 区块链
+<h4 id="区块链" class="clickable-header">区块链</h4>
 
 <ul class = "main-list">
     {% for post in site.categories.blockchain reversed %}
@@ -18,9 +18,9 @@ layout: default
 
 
 
-### SYSTEM 系统
+<h3 id="system-系统" class="clickable-header">SYSTEM 系统</h3>
 
-#### 基础数学 
+<h4 id="基础数学" class="clickable-header">基础数学</h4>
 
 <ul class = "main-list">
     {% for post in site.categories.math reversed %}
@@ -28,7 +28,7 @@ layout: default
     {% endfor %}
 </ul>
 
-#### C++
+<h4 id="cpp" class="clickable-header">C++</h4>
 
 <ul class = "main-list">
     {% for post in site.categories.cpp reversed %}
@@ -36,7 +36,7 @@ layout: default
     {% endfor %}
 </ul>
 
-#### 工具
+<h4 id="工具" class="clickable-header">工具</h4>
 
 <ul class = "main-list">
     {% for post in site.categories.tool reversed %}
@@ -44,7 +44,7 @@ layout: default
     {% endfor %}
 </ul>
 
-#### GPU
+<h4 id="gpu" class="clickable-header">GPU</h4>
 
 <ul class = "main-list">
     {% for post in site.categories.GPU reversed %}
@@ -52,7 +52,7 @@ layout: default
     {% endfor %}
 </ul>
 
-#### 图形渲染
+<h4 id="图形渲染" class="clickable-header">图形渲染</h4>
 
 <ul class = "main-list">
     {% for post in site.categories.graphic reversed %}
@@ -62,9 +62,9 @@ layout: default
 
 
 
-### PROJECT 制作
+<h3 id="project-制作" class="clickable-header">PROJECT 制作</h3>
 
-#### 哲学思想
+<h4 id="哲学思想" class="clickable-header">哲学思想</h4>
 
 <ul class = "main-list">
     {% for post in site.categories.phi reversed %}
@@ -72,7 +72,7 @@ layout: default
     {% endfor %}
 </ul>
 
-#### 项目制作管理
+<h4 id="项目制作管理" class="clickable-header">项目制作管理</h4>
 
 <ul class = "main-list">
     {% for post in site.categories.production reversed %}
@@ -82,7 +82,7 @@ layout: default
 
 
 
-### INFO 其它
+<h3 id="info-其它" class="clickable-header">INFO 其它</h3>
 
 <ul class = "main-list">
     {% for post in site.categories.other reversed %}
