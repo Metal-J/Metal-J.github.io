@@ -78,16 +78,46 @@ h5 {
 
 // Home
 
+.intro {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  font-family: 'Roboto';
+  font-size: medium;
+  margin: 40px 40px 0 40px;
+}
+
+@media only screen and (max-width: 800px) {
+  .intro {
+    display: block;
+    font-family: 'Roboto';
+    font-size: medium;
+  }
+}
+
 .intro-img {
   background: url(/assets/img/T1.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 
-  margin: 40px auto 0;
+  flex: 1;
+  margin: 0;
   width: 250px;
   height: 285px;
   filter: invert(1);
+}
+
+.intro-title {
+  flex: 1;
+  margin: 20px;
+  font-size: bigger;
+}
+
+.intro-char {
+  flex: 1;
+  margin: 20px;
+  font-size: smaller;
 }
 
 .wrapper {
