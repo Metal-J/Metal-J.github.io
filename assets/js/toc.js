@@ -9,7 +9,7 @@
       listType: 'ul', // values: [ol|ul]
       showEffect: 'none', // values: [show|slideDown|fadeIn|none]
       showSpeed: 'slow', // set to 0 to deactivate effect
-      classes: { list: 'toc-list',
+      classes: { list: 'wow fadeIn toc-list',
                  item: 'toc-item',
                  link: 'toc-link'
                }
