@@ -278,16 +278,19 @@ h1 {
   font-size: 11.5px;
 } 
 
+.highlight {
+  margin: 7.15px;
+}
+
 pre code {
   font-family: RobotoMono;
   font-size: small;
-  overflow: auto;
+  overflow: auto!important;
 }
 
 pre code.hljs {
   display: block;
-  overflow-x: auto;
-  padding: 0em 1.8em!important;
+  overflow-x: auto!important;
 }
 
 strong {
