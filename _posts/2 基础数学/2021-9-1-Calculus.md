@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 不定积分
+title: Calculus
 categories: math
 ---
 

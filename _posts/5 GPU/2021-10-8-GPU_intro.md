@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GPU 概述
+title: GPU概述
 categories: GPU
 ---
 
@@ -21,5 +21,3 @@ HPC概述、GPU概述、GPU 硬件架构、GPU 软件体系、CUDA 编程
 
 - **核心篇** **影响 GPU 程序性能的核心因素**  
 GPU执行核心、GPU存储体系、性能影响的关键因素、CPUs和GPUs协同运算  
-
-### 理论篇
