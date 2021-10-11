@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 区块链 概述
-categories: blockchain
+categories: new
 ---
 
 ##### 分布式共识网络
