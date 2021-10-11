@@ -24,7 +24,15 @@ layout: default
             <h5 id="基础介绍" class="clickable-header"> 基础介绍 </h5>
 
             <ul class = "main-list">
-                {% for post in site.categories.new reversed %}
+                {% for post in site.categories.blockchain reversed %}
+                    <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endfor %}
+            </ul>
+
+        <h4 id="区块链" class="clickable-header"> 交互 </h4>
+
+            <ul class = "main-list">
+                {% for post in site.categories.inter reversed %}
                     <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
                 {% endfor %}
             </ul>
