@@ -9,7 +9,7 @@ categories: Animation
 - **点控制器**，类似 Maya HumanIK。点控制器必须多选点才能旋转。
 - **盒控制器**，用于调节细节Pose。
 
-**Cascadeur** 流程
+**Cascadeur** 流程：DCC → Cascadeur → Maya
 - **DCC** 模型/骨骼/蒙皮
 - **Cascadeur** Rig
 - 控制器分轨
@@ -25,3 +25,6 @@ categories: Animation
 - 动画输出
 
 由于当前版本 **无约束管理**、**动画层**、**曲线编辑器**，制作更高细节动画仍需到 Maya 里微调。
+
+**手K** 就是类似CSS编程，各种接口效果组合，数值反复调整，形成理想效果。  
+另一个方向是 **动捕**，硬件数据采集。另一个方向是 **CV**。
