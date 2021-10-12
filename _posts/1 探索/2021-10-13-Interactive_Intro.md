@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Interaction Intro
+title: Interactive Intro
 categories: Interactive
 ---
 

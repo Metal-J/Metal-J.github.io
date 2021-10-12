@@ -4,6 +4,12 @@ title: Animation Intro
 categories: Animation
 ---
 
+> From [K出动捕感—用Cascadeur制作真·蓄力斩](https://www.bilibili.com/video/BV1zv411y7rD)
+
+### Animation 生产管线
+
+##### 从 DCC 到 Cascadeur 到 Maya
+
 **Cascadeur** 有三种控制器模式
 - **AutoPosing**，以拖拽实时计算最佳姿势。
 - **点控制器**，类似 Maya HumanIK。点控制器必须多选点才能旋转。
@@ -26,5 +32,8 @@ categories: Animation
 
 由于当前版本 **无约束管理**、**动画层**、**曲线编辑器**，制作更高细节动画仍需到 Maya 里微调。
 
+##### 制作的未来
+
 **手K** 就是类似CSS编程，各种接口效果组合，数值反复调整，形成理想效果。  
-另一个方向是 **动捕**，硬件数据采集。另一个方向是 **CV**。
+另一个方向是 **动捕**，硬件数据采集。  
+另一个方向是 **CV**。
