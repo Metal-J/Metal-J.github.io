@@ -6,9 +6,10 @@ layout: default
     <div class="wow fadeInRight intro-img"></div>
     <div class="wow fadeIn intro-info">
         <div class="wow fadeInLeft intro-title">METAL PRODUCTION</div>
-        <div class="wow fadeInLeftsmall intro-char">There must be something, only you can do.</div>
+        <div class="wow fadeInLeftsmall intro-char">There must be something only you can do.</div>
     </div>
 </div>
+
 
 
 
@@ -16,17 +17,9 @@ layout: default
 
 <div class = "wow fadeInDown content-list" >
 
-    <h3 id="new-area-探索" class="clickable-header"> NEW AREA 探索 </h3>
+    <h3 id="AI" class="clickable-header"> AI 人工智能 </h3>
 
-        <h4 id="区块链" class="clickable-header"> 区块链 </h4>
-
-            <ul class = "main-list">
-                {% for post in site.categories.blockchain reversed %}
-                    <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
-                {% endfor %}
-            </ul>
-
-            <h4 id="AI" class="clickable-header"> AI </h4>
+        <h4 id="AI" class="clickable-header"> AI </h4>
 
             <ul class = "main-list">
                 {% for post in site.categories.AI reversed %}
@@ -34,15 +27,7 @@ layout: default
                 {% endfor %}
             </ul>
 
-        <h4 id="VR/AR" class="clickable-header"> VR/AR </h4>
-
-            <ul class = "main-list">
-                {% for post in site.categories.VR reversed %}
-                    <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
-                {% endfor %}
-            </ul>
-
-        <h4 id="交互" class="clickable-header"> Interactive </h4>
+        <h4 id="interactive" class="clickable-header"> Interactive </h4>
 
             <ul class = "main-list">
                 {% for post in site.categories.Interactive reversed %}
@@ -50,24 +35,16 @@ layout: default
                 {% endfor %}
             </ul>
 
-        <h4 id="Animation" class="clickable-header"> Animation </h4>
-
-            <ul class = "main-list">
-                {% for post in site.categories.Animation reversed %}
-                    <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
-                {% endfor %}
-            </ul>
-
-    </div>
+</div>
 
 
 
 
 <div class = "wow fadeInUp content-list" >
 
-    <h3 id="system-系统" class="clickable-header">SYSTEM 系统</h3>
+    <h3 id="system-系统" class="clickable-header"> SYSTEM 系统 </h3>
 
-        <h4 id="基础数学" class="clickable-header"> 基础数学 </h4>
+        <h4 id="math" class="clickable-header"> 基础数学 </h4>
 
             <ul class = "main-list">
                 {% for post in site.categories.math reversed %}
@@ -75,10 +52,26 @@ layout: default
                 {% endfor %}
             </ul>
 
-        <h4 id="图形渲染" class="clickable-header"> 图形渲染 </h4>
+        <h4 id="graphic" class="clickable-header"> 图形渲染 </h4>
 
             <ul class = "main-list">
                 {% for post in site.categories.graphic reversed %}
+                    <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endfor %}
+            </ul>
+
+        <h4 id="DCC" class="clickable-header"> 数字内容创建 </h4>
+
+            <ul class = "main-list">
+                {% for post in site.categories.Animation reversed %}
+                    <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endfor %}
+            </ul>
+
+        <h4 id="VR/AR" class="clickable-header"> 虚拟与增强现实 </h4>
+
+            <ul class = "main-list">
+                {% for post in site.categories.VR reversed %}
                     <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
                 {% endfor %}
             </ul>
@@ -91,7 +84,7 @@ layout: default
                 {% endfor %}
             </ul>
 
-        <h4 id="工具" class="clickable-header"> 工具 </h4>
+        <h4 id="tool" class="clickable-header"> 工具 </h4>
 
             <ul class = "main-list">
                 {% for post in site.categories.tool reversed %}
@@ -99,16 +92,16 @@ layout: default
                 {% endfor %}
             </ul>
 
-    </div>
+</div>
 
 
 
 
 <div class = "wow fadeInDown content-list" >
 
-    <h3 id="project-制作" class="clickable-header"> PROJECT 制作 </h3>
+    <h3 id="project" class="clickable-header"> PROJECT 制作 </h3>
 
-        <h4 id="哲学思想" class="clickable-header"> 哲学思想 </h4>
+        <h4 id="phi" class="clickable-header"> 哲学思想 </h4>
 
             <ul class = "main-list">
                 {% for post in site.categories.phi reversed %}
@@ -116,7 +109,7 @@ layout: default
                 {% endfor %}
             </ul>
 
-        <h4 id="项目制作管理" class="clickable-header"> 项目制作管理 </h4>
+        <h4 id="production" class="clickable-header"> 项目制作管理 </h4>
 
             <ul class = "main-list">
                 {% for post in site.categories.production reversed %}
@@ -124,14 +117,30 @@ layout: default
                 {% endfor %}
             </ul>
 
-    </div>
+</div>
 
 
 
 
 <div class = "wow fadeInUp content-list" >
 
-    <h3 id="info-其它" class="clickable-header"> INFO 其它 </h3>
+    <h3 id="blockchain" class="clickable-header"> BLOCKCHAIN 区块链 </h3>
+
+        <h4 id="blockchain" class="clickable-header"> 区块链基础 </h4>
+
+                <ul class = "main-list">
+                    {% for post in site.categories.blockchain reversed %}
+                        <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
+                    {% endfor %}
+                </ul>
+</div>
+
+
+
+
+<div class = "wow fadeInDown content-list" >
+
+    <h3 id="info" class="clickable-header"> INFO 其它 </h3>
 
             <ul class = "main-list">
                 {% for post in site.categories.other reversed %}
@@ -139,6 +148,6 @@ layout: default
                 {% endfor %}
             </ul>
 
-    </div>
+</div>
 
 </div>
