@@ -14,23 +14,14 @@ layout: default
 
 
 <div class="content-block">
-
 <div class = "wow fadeInUp content-list" >
 
     <h3 id="system-系统" class="clickable-header"> SYSTEM 系统 </h3>
 
-        <h4 id="math" class="clickable-header"> 基础数学 </h4>
+        <h4 id="VR/AR" class="clickable-header"> 虚拟与增强现实 </h4>
 
             <ul class = "main-list">
-                {% for post in site.categories.math reversed %}
-                    <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
-                {% endfor %}
-            </ul>
-
-        <h4 id="graphic" class="clickable-header"> 图形渲染 </h4>
-
-            <ul class = "main-list">
-                {% for post in site.categories.graphic reversed %}
+                {% for post in site.categories.VR reversed %}
                     <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
                 {% endfor %}
             </ul>
@@ -43,10 +34,18 @@ layout: default
                 {% endfor %}
             </ul>
 
-        <h4 id="VR/AR" class="clickable-header"> 虚拟与增强现实 </h4>
+        <h4 id="graphic" class="clickable-header"> 图形渲染 </h4>
 
             <ul class = "main-list">
-                {% for post in site.categories.VR reversed %}
+                {% for post in site.categories.graphic reversed %}
+                    <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endfor %}
+            </ul>
+
+        <h4 id="math" class="clickable-header"> 基础数学 </h4>
+
+            <ul class = "main-list">
+                {% for post in site.categories.math reversed %}
                     <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
                 {% endfor %}
             </ul>
@@ -76,18 +75,10 @@ layout: default
 
     <h3 id="AI" class="clickable-header"> AI 人工智能 </h3>
 
-        <h4 id="AI" class="clickable-header"> AI </h4>
+        <h4 id="AI" class="clickable-header"> 基本框架 </h4>
 
             <ul class = "main-list">
                 {% for post in site.categories.AI reversed %}
-                    <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
-                {% endfor %}
-            </ul>
-
-        <h4 id="interactive" class="clickable-header"> Interactive </h4>
-
-            <ul class = "main-list">
-                {% for post in site.categories.Interactive reversed %}
                     <li><p class = "post-date">{{ post.date | date:"%Y/%m/%d" }}</p><a href="{{ post.url }}">{{ post.title }}</a></li>
                 {% endfor %}
             </ul>
