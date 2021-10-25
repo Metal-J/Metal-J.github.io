@@ -1,0 +1,15 @@
+---
+layout: post
+title: 技术笔记
+categories: blockchainT
+---
+
+### 技术原理
+
+##### 分布式共识网络
+
+比特币建立在无中心节点的点对点网络数据库之上，基于密码学方法，大量计算机分布式计算来共同维护，经由算力累积，形成不可篡改之唯一区块链，从而解决双重支付、中心化信任等问题。
+
+##### 哈希函数
+
+> From [Binance Academy](https://academy.binance.com/zh)
