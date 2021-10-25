@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Animation Intro
+title: Animation 生产管线
 categories: Animation
 ---
 
@@ -35,5 +35,4 @@ categories: Animation
 ##### 制作的未来
 
 **手K** 就是类似CSS编程，各种接口效果组合，数值反复调整，形成理想效果。  
-另一个方向是 **动捕**，硬件数据采集。  
-另一个方向是 **CV**。
+另一个方向是 **动捕**，硬件数据采集。另一个方向是 **CV**。
