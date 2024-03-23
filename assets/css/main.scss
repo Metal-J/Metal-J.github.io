@@ -52,8 +52,8 @@ h3 {
 
 h4 {
   padding-left: 11.5px;
-  margin: 30px 3px 14px;
-  font-size: 15px;
+  margin: 55px 3px 10px;
+  font-size: 18px;
   word-break: break-word;
 }
 
@@ -222,14 +222,13 @@ h5 {
 #toc ul li li { list-style: none !important; }
 
 .toc-list .toc-item .toc-link { 
-  font-size: 15px !important;
+  font-size: 28px !important;
   color: black;
-  font-family: 'MiSans-ExtraLight';
-  font-weight: bold; }
+  font-family: 'Newsreader_60pt-ExtraLight', 'MiSans-ExtraLight';
+}
 
 #toc ul li ul li a { 
-  font-size: small !important;
-  font-weight: bold;
+  font-size: 15px !important;
   border-left: 1px solid #e8e8e8;
   padding: 0px 5px;
   margin: 5px 0px;
