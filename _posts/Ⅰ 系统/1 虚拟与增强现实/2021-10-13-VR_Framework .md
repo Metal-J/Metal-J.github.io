@@ -4,10 +4,6 @@ title: VR 基本结构
 categories: VR
 ---
 
-> 参考 [聊一聊VR虚拟现实](https://www.zhihu.com/column/deerhunt)
-
-
-
 ## 基本历史
 
 **VR不是VR眼镜，而是一种全新的范式**
