@@ -7,12 +7,7 @@
 @font-face { font-family: 'RobotoMono'; src: url('fonts/RobotoMono.ttf'); font-display: swap; }
 @font-face { font-family: 'Roboto'; src: url('fonts/Roboto-Light.ttf'); font-display: swap; }
 @font-face { font-family: 'Raleway'; src: url('fonts/Raleway-Regular.ttf'); font-display: swap; }
-
-@font-face { font-family: 'Newsreader_60pt-Light'; src: url('fonts/Newsreader_60pt-Light.ttf'); font-display: swap; }
 @font-face { font-family: 'Newsreader_60pt-ExtraLight'; src: url('fonts/Newsreader_60pt-ExtraLight.ttf'); font-display: swap; }
-@font-face { font-family: 'Newsreader_60pt-Regular'; src: url('fonts/Newsreader_60pt-Regular.ttf'); font-display: swap; }
-@font-face { font-family: 'MiSans-Light'; src: url('fonts/MiSans-Light.otf'); font-display: swap; }
-@font-face { font-family: 'MiSans-Normal'; src: url('fonts/MiSans-Normal.otf'); font-display: swap; }
 @font-face { font-family: 'MiSans-ExtraLight'; src: url('fonts/MiSans-ExtraLight.otf'); font-display: swap; }
 
 html,body {
@@ -155,7 +150,7 @@ h5 {
 
 .intro-char {
   font-size: medium;
-  font-family: 'Newsreader_60pt-Light';
+  font-family: 'Newsreader_60pt-ExtraLight','MiSans-ExtraLight';
 }
 
 .content-block {
@@ -210,7 +205,7 @@ h5 {
 }
 
 .toc-title {
-  font-family: 'Newsreader_60pt-ExtraLight';
+  font-family: 'Newsreader_60pt-ExtraLight','MiSans-ExtraLight';
   font-size: 40px;
   margin: 20px 0 27px 0;
   color: #e0e0e0;
