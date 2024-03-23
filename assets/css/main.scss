@@ -128,21 +128,20 @@ h5 {
   margin: 20px;
   padding: 10px;
   border: 1px solid #e8e8e8;
-  color: #ffffff;
-  background-color: #1b2229;
+  color: #1b2229;
+  background-color: #ffffff;
   width: 100%;
+  filter: invert(1);
 }
 
 .self-intro-img {
   background: url(/assets/img/self-intro-img.jpg);
   background-size: contain;
   background-position: center;
-  margin: 20px 0 0 0;
-  min-height: 180px;
 }
 
 .intro-title {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: normal;
 }
 
