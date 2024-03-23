@@ -20,7 +20,7 @@ $(document).ready(function () {
 
     if( y > 800 && x.left == -390 ) { 
     $(".toc-bar").animate({left:'0px'});
-    $(".wrapper").animate({left:'365px'});
+    $(".wrapper").animate({left:'350px'});
     $(".flip").css({"color":"orange"});
     };
 
@@ -69,7 +69,7 @@ $(document).ready(function () {
 
     if( y > 800 && x.left == -390 ) { 
     $(".toc-bar").animate({left:'0px'});
-    $(".wrapper").animate({left:'365px'});
+    $(".wrapper").animate({left:'350px'});
     $(".flip").css({"color":"orange"});
     };
 
